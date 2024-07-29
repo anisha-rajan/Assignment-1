@@ -1,0 +1,89 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+        <title>Employee Registration Form</title>
+        </head>
+    <body>
+        <center>
+        <h1>REGISTRATION FORM</h1>
+        </center>
+        <button style="background-color:blue;color: white; width:30%; height:30px;"type="Sign up"><b>Sign up</b></button>
+        <form>
+        <table>
+            <tr>
+                <td>First Name:  </td>
+          <td><input type="text" placeholder="Enter first name"></td>
+          </tr>
+          <tr> 
+            <td>Middle Name: </td>
+            <td><input type="text" placeholder="Enter Middle name"></td>
+          </tr>
+          <tr>
+            <td>Last Name: </td>
+            <td><input type="text" placeholder="Enter last name"></td>
+            </tr>
+            <br><br>
+        </table>
+            <label>Gender:</label> 
+            <br>
+            <input type="radio" name="Male">Male
+            <br>
+            <input type="radio" name="Female">Female
+           <br>
+           <input type="radio" name="Others">Others
+           <br>
+           <lable>Date of birth:</label>
+            <input type="numbers" placeholder="DD/MM/YY">
+           <br><br>
+         <lable>Department: </lable>
+             <select name="Department" id="Department">
+                  <option value ="select Department">Select Department</option>
+                  <option value ="HR">HR </option>
+                  <option value ="Developer">Developer</option>
+                  <option value ="Accounting">Accounting </option>
+                  <option value ="Recruiting">Recruiting </option>
+                  <option value ="Marketing">Marketing</option>
+                  <option value ="Finance">Finance</option>
+             </select>
+             <br><br>
+                    <lable>Designation:  </lable>
+                    <input type="text" placeholder="Enter your Designation">
+                    <br><br>
+                    <lable>Experiences:</lable>
+                    <input type="text" placeholder="If any">
+                    <br><br>
+            <lable>Contact No:  </lable>
+            <input type="number" placeholder="+91 ">
+            <br><br>
+            <lable>Email id:</lable>
+            <input type="text" placeholder="Enter your mail @gmail">
+                <lable>Password:</lable>
+            <input type="password" placeholder="Enter passcode">
+        <br><br>
+            <lable>Country:</lable>
+        <select name="Country" >
+            <option value =" Select Country">Select Country</option>
+                <option value ="India">India </option>
+                <option value ="USA">USA</option>
+                <option value ="UK">UK </option>
+                <option value ="Canada">Canada</option>
+                <option value ="SouthAfrica">SouthAfrica</option>
+                <option value ="Russia">Russia</option>
+        </select>
+                <br><br>
+            <lable>Address: </lable>
+        <input type="text" placeholder="Enter Address">
+        <br><br>
+            <lable>Landmark:</lable>
+            <input type="text" placeholder="Enter nearby Landmark">
+        <lable>Pincode:</lable>
+        <input type="number" placeholder="Pin code">
+        <br><br>
+        <input type="checkbox" >I agree with the <u>terms and conditions</u>
+        <br><br>
+        <input type="button" value="Submit">
+    </form>
+    </body>
+    </html>
